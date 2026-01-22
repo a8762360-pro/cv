@@ -1,0 +1,137 @@
+*{
+    margin: 0;    /*margin*/
+    padding: 0;
+    
+}
+body{
+    font-family: "Roboto";
+    width: 100%;
+}
+.container{
+    background-color: rgba(74, 178, 244, 0.438);
+    max-width: 1000px;
+    margin: 0 auto;            /*majkhane newar jnno*/
+    padding: 10px;
+}
+/* header{
+}  */
+.pictute{
+    height: 120px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 70px;
+    float: left;
+    margin: 20px;
+}
+.bio{
+    float: left;  /**/
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.contact{
+    padding: 10px;
+    float: right;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.contact a:hover{
+    color: rgb(219, 91, 48);
+    text-decoration: underline;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+.personal-left{
+    float: left;
+    width: 50%;
+}
+.personal-right{
+    float: right;
+    width: 50%;
+}
+
+.h-rool{
+    border: solid black 1px;
+    margin: 20px auto;
+    width: 100%;
+}
+.work-ex-lft{
+    float: left;
+    padding-right: 100px;
+    width: 50%;
+}
+.work-ex-rht{
+    float: right;
+    padding-right: 10px;
+    width: 50%;
+}
+.work-lft{
+    float: left;
+    width: 50%;
+}
+.work-rht{
+    float: right;
+    width: 50%;
+
+}
+.bdskills{
+    text-decoration: none;
+    color: blueviolet;
+}
+.github{
+    text-decoration: none;
+    color: blueviolet;
+}
+.s-lft{
+    float: left;
+    padding-right: 45px;
+}
+.s-rht{
+    float: right;
+    padding-left: 0px;
+}
+.s-year{
+    margin: 10px;
+}
+.s-name{
+    margin: 10px;
+    text-decoration: none;
+    padding-right: 5px;
+}
+a{
+    text-decoration: none;
+    padding-left: 2px;
+}
+.footer{
+    background-color: black;
+    height: 80px;
+}
+.fot-li{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+
+}
+.fot-li a{
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    
+}
+.f-p{
+    color: white;
+    padding: 15px;
+    font-size: 10px;
+}
